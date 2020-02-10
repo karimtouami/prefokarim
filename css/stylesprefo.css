@@ -3,8 +3,10 @@ body, html {
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
     color: #777;
+    scroll-behavior: smooth;
+
   }
-  
+    
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
     position: relative;
     opacity: 0.85;
@@ -14,27 +16,29 @@ body, html {
     background-size: cover;
   
   }
+
   .bgimg-1 {
-    background-image: url("../img/bgimg-1.jpg");
-    min-height: 90%;
+    background-image: url("../img/413051.jpg");
+    min-height: 1000px;
   }
   
   .bgimg-2 {
-    background-image: url("../img/bgimg-2.jpg");
-    min-height: 700px;
+    background-image: url("../img/bird-s-eye-view-of-city-2246476.jpg");
+    min-height: 1000px;
   }
   
   .bgimg-3 {
-    background-image: url("../img/Movie-Details-You-Missed-Inception-Music-Theme.jpg");
-    min-height: 700px;
+    background-image: url("../img/woman-in-blue-suit-jacket-2422293.jpg");
+    min-height: 1000px;
   }
   .bgimg-4 {
-    background-image: url("../img/bgimg-4.JPG");
+    background-image: url("../img/camera-photography-technology-reflection-122400.jpg");
     min-height: 700px;
   }
   
   .bgimg-5 {
-    background-image: url("../img/image-parallax.jpg");
+    background-image: url("../img/441657.jpg");
+    background-color: #000;
     min-height: 600px;
   }
 
@@ -47,6 +51,63 @@ body, html {
     background-image: url("file:///E:/T-Karim-cf2m/Projet%20Expo/Brussels-International-2.jpg");
     min-height: 600px;
   }
+
+  .titreexpo {
+    text-align:center;
+    font-weight:bold;
+    text-decoration: underline;
+    }
+
+  .imageExpo {
+    text-align: center;
+    width:200px;
+    height:auto;  
+    border: 10px solid white; 
+     }
+
+  
+     .imageExpo2 {
+      text-align: center;
+      width:400px;
+      height:300px;  
+      border: 5px solid white; 
+       }
+    
+     
+  #profiltext{
+    display: flex;
+    position: top;
+  flex-direction: column;
+  }
+
+ 
+ .imageprofil {
+  float: right;
+  border-radius: 50px;
+  width: 200px;
+  height: 400px;
+  
+  
+ }
+
+
+ .imageinteview{
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  
+ }
+  .imageGallery {
+  text-align: center;
+  width:600px;
+  height:400px;   
+
+  }
+  .imageGallery:hover{
+width: 600px;
+
+  } 
+
   .caption {
     position: absolute;
     left: 0;
@@ -55,6 +116,19 @@ body, html {
     text-align: center;
     color: #000;
   }
+
+  
+  .captioncbaw a {
+    color: white;
+    text-decoration: none;    
+  }
+
+
+  .captioncbaw a:visited {
+    color: white;
+    text-decoration: none;    
+  }
+  
   
   .caption span.border a {
     background-color: #111;
@@ -78,3 +152,5 @@ body, html {
       background-attachment: scroll;
     }
   }
+
+  
